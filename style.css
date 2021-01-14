@@ -77,7 +77,7 @@ svg {
     display: none;
   }
 
-    .header2 {
+  .header2 {
     display: none;
   }
 }
@@ -315,7 +315,7 @@ h6 {
   border-top: 1px solid black;
 }
 
- /* Aside*/
+/* Aside */
 @media (min-width: 1150px) {
   .aside {
     float: right;
@@ -340,7 +340,6 @@ h6 {
 
   .a1 {
     width: 100px;
-
   }
 
   .for-margin {
@@ -435,7 +434,6 @@ h6 {
   width: 300px;
   display: block;
   height: 500px;
-
 }
 
 .most-grid {
@@ -504,14 +502,12 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 20px;
   border-top: 2px solid rgb(187, 189, 224);
-
 }
 
 .footer-links {
   display: flex;
   flex-direction: column;
   margin: 15px;
-
 }
 
 .footer-last {
@@ -531,7 +527,7 @@ a {
   list-style: none;
 }
 
- /* navbar */
+/* navbar */
 
 * {
   margin: 0;
