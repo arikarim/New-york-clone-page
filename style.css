@@ -436,7 +436,7 @@ h6 {
 .more-space1 {
   border-top: 1px solid black;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 100px;
   margin-right: 0;
 }
 
@@ -452,9 +452,9 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 10px;
-  justify-content: start;
-  justify-items: start;
-  max-width: 900px;
+  justify-content: center;
+  justify-items: center;
+  max-width: 750px;
 }
 
 .card-grid {
@@ -494,14 +494,16 @@ h6 {
   width: 300px;
   display: block;
   height: 500px;
-  margin-right: 50px;
+  margin-left: 0;
+  /* grid-area: right1;
+  justify-items: center; */
 }
 
 .most-grid {
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
-  margin-right: 20px;
+  margin-right: 0;
 }
 
 .most-pop {
@@ -513,6 +515,14 @@ h6 {
 }
 
 /* editors picks */
+
+.parent-grid {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-items: center;
+  justify-content: center;
+}
+
 .editor-name {
   margin: 10px;
   font-weight: bold;
@@ -558,6 +568,13 @@ h6 {
   width: 200px;
 }
 
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -565,6 +582,8 @@ h6 {
   border-top: 2px solid rgb(187, 189, 224);
   max-width: 1000px;
   margin-left: 100px;
+  justify-content: center;
+  justify-items: center;
 }
 
 .footer-links {
