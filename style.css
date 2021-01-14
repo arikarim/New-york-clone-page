@@ -6,6 +6,10 @@ svg {
   margin-right: 150px;
 }
 
+.sticky {
+  margin-left: 50px;
+}
+
 .btn {
   position: absolute;
   top: 0;
@@ -79,6 +83,7 @@ svg {
 .submit {
   position: absolute;
   top: 0;
+  padding-top: 5px;
   right: 100px;
   background-color: rgb(19, 108, 143);
   width: 130px;
@@ -90,6 +95,7 @@ svg {
 .login {
   position: absolute;
   top: 0;
+  padding-top: 5px;
   right: 0;
   background-color: rgb(19, 108, 143);
   width: 80px;
@@ -240,6 +246,16 @@ h6 {
   }
 }
 
+.unlock {
+  text-align: center;
+  margin: 15px;
+}
+
+.unlock-text {
+    color: rgb(70, 106, 146);
+     border-bottom: 1px solid silver;
+}
+
 .iframe_container {
   display: flex;
   flex-direction: column;
@@ -266,7 +282,7 @@ h6 {
 
 .content1 {
   position: absolute;
-  top: 145px;
+  top: 160px;
   left: 0;
   width: 175px;
   height: 300px;
@@ -274,7 +290,7 @@ h6 {
 
 .content2 {
   position: absolute;
-  top: 145px;
+  top: 160px;
   left: 200px;
   width: 180px;
   height: 300px;
@@ -282,7 +298,7 @@ h6 {
 
 .content3 {
   position: absolute;
-  top: 145px;
+  top: 160px;
   left: 400px;
   width: 175px;
   height: 300px;
@@ -290,7 +306,7 @@ h6 {
 
 .content4 {
   position: absolute;
-  top: 140px;
+  top: 160px;
   left: 620px;
   width: 190px;
   height: 300px;
@@ -298,7 +314,7 @@ h6 {
 
 .content5 {
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 0;
   width: 175px;
   height: 300px;
@@ -306,7 +322,7 @@ h6 {
 
 .content6 {
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 200px;
   width: 175px;
   height: 300px;
@@ -314,7 +330,7 @@ h6 {
 
 .content7 {
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 400px;
   width: 175px;
   height: 300px;
@@ -322,7 +338,7 @@ h6 {
 
 .content8 {
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 650px;
   width: 175px;
   height: 300px;
@@ -563,6 +579,53 @@ a {
 
 /* navbar */
 
+.sidebar_container {
+  margin-top: 0;   
+}
+
+.menu {
+  height: 100%;
+  margin-top: 0;
+  padding: 10px 50px;
+}
+
+#www {
+  height: 700px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+  margin-top: 60px;
+  background: white;
+  transform: translateX(-250px);
+}
+
+#openSidebarMenu:checked ~ #www {
+  transform: translateX(0px);
+}
+
+.sidebarIconToggle {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  z-index: 20;
+  top: 22px;
+  left: 15px;
+  cursor: pointer;
+}
+
+.spinner {
+  height: 3px;
+  background: turquoise;
+  transition: all 0.3s;
+}
+
+.spinner.middle,
+.spinner.bottom
+{
+  margin-top: 3px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -608,7 +671,7 @@ nav ul li a:hover {
 
 nav ul ul {
   position: absolute;
-  left: 250px;
+  left: 150px;
   width: 200px;
   top: 0;
   display: none;
@@ -630,7 +693,7 @@ nav ul .dropdown {
 
 nav ul .dropdown-two ul {
   position: absolute;
-  left: 200px;
+  left: 100px;
   top: 0;
 }
 
