@@ -73,9 +73,10 @@ svg {
 }
 
 @media (max-width: 700px) {
-    .header1 {
+  .header1 {
     display: none;
   }
+
     .header2 {
     display: none;
   }
@@ -129,7 +130,7 @@ svg {
   margin-right: auto;
 }
 
- /*article body*/ 
+/* article body */
 .article-body {
   display: flex;
   flex-direction: column;
@@ -160,7 +161,7 @@ svg {
   align-items: flex-start;
 }
 
-.span1{
+.span1 {
   font-size: 0.9rem;
   color: rgb(119, 147, 158);
   margin-bottom: 15px;
@@ -294,6 +295,7 @@ h6 {
   width: 175px;
   height: 300px;
 }
+
 .content-flex {
   display: flex;
   flex-direction: column;
@@ -337,7 +339,8 @@ h6 {
   }
 
   .a1 {
-    width: 100px; 
+    width: 100px;
+
   }
 
   .for-margin {
@@ -400,12 +403,12 @@ h6 {
   grid-template-rows: 200px 20px 100px;
   grid-template-areas:
     "image"
-    "span"
+    "span-span"
     "text";
 }
 
 .card-span {
-  grid-area: span;
+  grid-area: span-span;
   color: rgb(163, 163, 201);
   font-size: 0.8rem;
   width: 280px;
@@ -416,7 +419,7 @@ h6 {
   width: 280px;
 }
 
- /*most-pop*/
+/* most-pop */
 .most {
   font-size: 1.3rem;
   border-top: 1px solid black;
@@ -431,7 +434,8 @@ h6 {
   float: right;
   width: 300px;
   display: block;
-  height: 500px;  
+  height: 500px;
+
 }
 
 .most-grid {
@@ -449,7 +453,7 @@ h6 {
   font-weight: 400;
 }
 
- /*editors picks*/
+/* editors picks */
 .editor-name {
   margin: 10px;
   font-weight: bold;
@@ -499,13 +503,15 @@ h6 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 20px;
-  border-top: 2px solid rgb(187, 189, 224);   
+  border-top: 2px solid rgb(187, 189, 224);
+
 }
 
 .footer-links {
   display: flex;
   flex-direction: column;
-  margin: 15px;     
+  margin: 15px;
+
 }
 
 .footer-last {
@@ -525,11 +531,7 @@ a {
   list-style: none;
 }
 
-a:hover {
-  transition: 0.7 ease-in-out;
-}
-
-/*navbar*/
+ /* navbar */
 
 * {
   margin: 0;
@@ -566,7 +568,6 @@ nav ul li a {
   color: black;
   padding: 10px 30px;
   height: 30px;
-  transition: 0.5 ease;
   border-radius: 20px;
 }
 
@@ -575,7 +576,7 @@ nav ul li a:hover {
   color: #fff;
 }
 
-nav ul ul{
+nav ul ul {
   position: absolute;
   left: 250px;
   width: 200px;
