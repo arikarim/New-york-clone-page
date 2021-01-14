@@ -25,14 +25,6 @@ svg {
   width: 400px;
 }
 
-.header2 {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  height: 20px;
-  width: 400px;
-  }
-
 .header {
   text-align: center;
   width: 100%;
@@ -42,7 +34,7 @@ svg {
   top: 0;
 }
 
-.search0{
+.search0 {
   position: absolute;
   top: 0;
   left: 0;
@@ -252,8 +244,8 @@ h6 {
 }
 
 .unlock-text {
-    color: rgb(70, 106, 146);
-     border-bottom: 1px solid silver;
+  color: rgb(70, 106, 146);
+  border-bottom: 1px solid silver;
 }
 
 .iframe_container {
@@ -580,7 +572,7 @@ a {
 /* navbar */
 
 .sidebar_container {
-  margin-top: 0;   
+  margin-top: 0;
 }
 
 .menu {
@@ -601,7 +593,12 @@ a {
 }
 
 #openSidebarMenu:checked ~ #www {
-  transform: translateX(0px);
+  transform: translateX(1px);
+}
+
+#openSidebarMenu {
+  position: absolute;
+  left: -18px;
 }
 
 .sidebarIconToggle {
@@ -616,13 +613,13 @@ a {
 
 .spinner {
   height: 3px;
-  background: turquoise;
+  background: black;
   transition: all 0.3s;
 }
 
 .spinner.middle,
 .spinner.bottom
-{
+ {
   margin-top: 3px;
 }
 
