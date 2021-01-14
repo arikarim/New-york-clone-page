@@ -622,6 +622,12 @@ a {
   margin-top: 3px;
 }
 
+.nav-icon {
+    width: 40px;
+    position: absolute;
+    margin-left: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
