@@ -91,7 +91,6 @@ svg {
 .login {
   position: absolute;
   top: 0;
-  padding-top: 5px;
   right: 0;
   background-color: rgb(19, 108, 143);
   width: 80px;
@@ -576,6 +575,12 @@ h6 {
   font-size: 1.1rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
 nav ul li a {
   display: flex;
   align-items: center;
@@ -586,12 +591,6 @@ nav ul li a {
   padding: 10px 30px;
   height: 30px;
   border-radius: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  list-style: none;
 }
 
 .footer-links a {
