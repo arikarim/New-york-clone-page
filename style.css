@@ -79,14 +79,13 @@ svg {
 .submit {
   position: absolute;
   top: 0;
-  padding-top: 5px;
+  padding: 10px;
   right: 100px;
   background-color: rgb(19, 108, 143);
   width: 150px;
   height: 35px;
   border-radius: 5px;
   color: white;
-  padding: 10px;
 }
 
 .login {
@@ -407,6 +406,7 @@ h6 {
     display: none;
   }
 }
+
 .fb-icon {
   width: 40px;
   background-color: rgb(103, 103, 189);
@@ -576,6 +576,24 @@ h6 {
   font-size: 1.1rem;
 }
 
+nav ul li a {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  padding: 10px 30px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
 .footer-links a {
   padding-top: 10px;
 }
@@ -589,12 +607,6 @@ h6 {
   border-top: 2px solid silver;
   margin: 15px;
   padding: 15px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-  list-style: none;
 }
 
 /* navbar */
@@ -681,18 +693,6 @@ nav {
 nav ul {
   position: relative;
   list-style-type: none;
-}
-
-nav ul li a {
-  display: flex;
-  align-items: center;
-  font-size: 0.9rem;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: black;
-  padding: 10px 30px;
-  height: 30px;
-  border-radius: 20px;
 }
 
 nav ul li a:hover {
