@@ -37,7 +37,6 @@ svg {
 .header {
   text-align: center;
   width: 100%;
-  border-bottom: 1px solid gray;
   min-width: 300px;
   position: static;
   top: 0;
@@ -146,7 +145,7 @@ svg {
 }
 
 .bottom {
-  margin: 5px;
+  margin: 30px;
 }
 
 .title5 {
@@ -159,8 +158,8 @@ svg {
   text-align: start;
   font-size: 1.9375rem;
   line-height: 2.25rem;
-  margin-top: 30px;
-  padding-bottom: 15px;
+  margin-top: 80px;
+  padding-bottom: 30px;
   border-bottom: 0.5px solid gray;
 }
 
@@ -261,10 +260,19 @@ svg {
   color: rgb(115, 129, 143);
 }
 
+.as-bigg {
+  text-align: center;
+  margin-right: 460px;
+  font-size: 1.3rem;
+  height: 5px;
+}
+
 .as-big {
   text-align: center;
   margin-right: 460px;
   font-size: 1.3rem;
+  height: 5px;
+  width: 300px;
 }
 
 h4,
@@ -388,6 +396,7 @@ h6 {
     display: grid;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
     gap: 10px;
+    margin-right: 80px;
   }
 
   .aside-grid {
@@ -398,8 +407,8 @@ h6 {
 
   .border-aside10 {
     border-bottom: 2px solid rgb(135, 135, 165);
-    font-size: 1.2rem;
-    width: 50px;
+    font-size: 1rem;
+    width: 100px;
   }
 
   .a1 {
@@ -454,7 +463,6 @@ h6 {
 }
 
 .more-space1 {
-  border-top: 1px solid black;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 0;
@@ -496,6 +504,11 @@ h6 {
 .card-text {
   font-size: 1.1rem;
   width: 280px;
+}
+
+.header24 {
+  margin-right: 700px;
+  margin-top: 20px;
 }
 
 /* most-pop */
@@ -552,7 +565,7 @@ h6 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   max-width: 900px;
-  gap: 100px;
+  gap: 20px;
 }
 
 .editor-cards {
@@ -572,7 +585,7 @@ h6 {
 }
 
 .editor-span {
-  grid-area: span-card;
+  grid-area: span;
   font-size: 0.8rem;
   color: rgb(114, 114, 146);
   align-self: end;
@@ -592,13 +605,13 @@ h6 {
   justify-items: center;
   align-items: center;
   margin-top: 50px;
+  border-top: 2px solid rgb(187, 189, 224);
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 10px;
-  border-top: 2px solid rgb(187, 189, 224);
   max-width: 1000px;
   margin-left: 100px;
   justify-content: center;
@@ -640,9 +653,8 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: rgb(142, 149, 177);
-  border-top: 2px solid silver;
   margin: 15px;
   padding: 15px;
 }
