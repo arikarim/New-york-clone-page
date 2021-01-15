@@ -17,6 +17,7 @@
   margin-top: 20px;
   z-index: -1;
 }
+
 .right {
   position: absolute;
   right: 50px;
@@ -41,38 +42,25 @@
   left: 50px;
   top: 0;
 }
+
 .left h3 {
   display: inline;
   margin-left: 10px;
 }
+
 .left i {
   margin: 5px;
 }
 
 .icons_1 {
   width: 500px;
-  margin-left: 50px;
-}
-
-.icons_1 a {
-  margin: 10px;
-  background-color: #fff;
-  width: 10px;
+  margin-left: 100px;
 }
 
 .icons_1 i {
   margin: 10px;
   background-color: rgb(255, 255, 255);
 }
-
-
-
-
-
-
-
-
-
 
 .header-flex {
   display: flex;
