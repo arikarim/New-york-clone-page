@@ -43,6 +43,12 @@
   top: 0;
 }
 
+h4,
+h3,
+p {
+  margin-bottom: 15px;
+}
+
 .left h3 {
   display: inline;
   margin-left: 10px;
@@ -349,12 +355,6 @@ svg {
   font-size: 1.3rem;
   height: 5px;
   width: 300px;
-}
-
-h4,
-h3,
-p {
-  margin-bottom: 15px;
 }
 
 h6 {
