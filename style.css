@@ -140,6 +140,15 @@ svg {
   visibility: hidden;
 }
 
+.bottom-links {
+  display: inline;
+  font-size: 0.8rem;
+}
+
+.bottom {
+  margin: 5px;
+}
+
 .title5 {
   position: static;
   top: 0;
