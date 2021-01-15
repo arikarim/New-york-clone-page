@@ -1,4 +1,10 @@
 
+.header-flex {
+  display: flex;
+  justify-content: center;
+
+}
+
 svg {
   width: 200px;
   height: 30px;
@@ -8,6 +14,9 @@ svg {
 
 .sticky {
   margin-left: 50px;
+  height: 10px;
+  margin-bottom: 10px;
+  max-width: 1300px;
 }
 
 .btn {
@@ -22,7 +31,7 @@ svg {
   top: 0;
   left: 60px;
   height: 20px;
-  width: 400px;
+  width: 200px;
   padding-top: 5px;
 }
 
@@ -31,7 +40,7 @@ svg {
   width: 100%;
   border-bottom: 1px solid gray;
   min-width: 300px;
-  position: sticky;
+  position: static;
   top: 0;
   padding-top: 5px;
   margin-left: 100px;
@@ -76,6 +85,13 @@ svg {
   width: 25px;
 }
 
+@media (min-width: 2000px) {
+  .submit,
+  .login {
+    margin-right: 500px;
+  }
+}
+
 .submit {
   position: absolute;
   top: 0;
@@ -112,37 +128,66 @@ svg {
 
 .header1 {
   position: relative;
-  float: left;
+  /* float: left;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 10px; */
+  margin-right: 1400px;
 }
 
 .title {
-  border-bottom: 1px solid silver;
   padding-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
 .title5 {
-  position: sticky;
+  position: static;;
   top: 0;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
+  width: 650px;
+  text-align: start;
   font-size: 1.9375rem;
   line-height: 2.25rem;
   margin-top: 30px;
   padding-bottom: 15px;
+  border-bottom: 0.5px solid gray;
 }
 
 .about {
-  display: block;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
+.fig-cap {
+  width: 760px;
+  text-align: start;
+}
+
 .icons {
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: flex-start;
+  margin-right: 400px;
+  margin-top: 0;
+  margin-left: 50px;
+}
+
+.icon-share {
+  margin-bottom: 20px;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 500px;
+
 }
 
 .icons li {
@@ -222,6 +267,7 @@ p {
 
 h6 {
   font-size: 0.9rem;
+  margin: 10px;
 }
 
 .after1 {
@@ -260,6 +306,7 @@ h6 {
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 0;
+  text-align: start;
 }
 
 .video-text {
@@ -269,80 +316,29 @@ h6 {
   height: 30px;
 }
 
-.content55 {
-  position: relative;
-  height: 700px;
-  margin: 1px;
-  overflow: hidden;
+.theory-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 700px;
+  gap: 20px;
 }
 
-.content1 {
-  position: absolute;
-  top: 160px;
-  left: 0;
-  width: 175px;
-  height: 300px;
+.theory-card {
+  width: 230px;
 }
 
-.content2 {
-  position: absolute;
-  top: 160px;
-  left: 200px;
-  width: 180px;
-  height: 300px;
-}
-
-.content3 {
-  position: absolute;
-  top: 160px;
-  left: 400px;
-  width: 175px;
-  height: 300px;
-}
-
-.content4 {
-  position: absolute;
-  top: 160px;
-  left: 620px;
-  width: 190px;
-  height: 300px;
-}
-
-.content5 {
-  position: absolute;
-  top: 470px;
-  left: 0;
-  width: 175px;
-  height: 300px;
-}
-
-.content6 {
-  position: absolute;
-  top: 470px;
-  left: 200px;
-  width: 175px;
-  height: 300px;
-}
-
-.content7 {
-  position: absolute;
-  top: 470px;
-  left: 400px;
-  width: 175px;
-  height: 300px;
-}
-
-.content8 {
-  position: absolute;
-  top: 470px;
-  left: 650px;
-  width: 175px;
-  height: 300px;
+.theory-img {
+  width: 270px;
+  height: 180px;
+  margin-bottom: 5px;
 }
 
 .content-flex {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flex1 {
@@ -357,15 +353,35 @@ h6 {
   margin-right: 400px;
   align-self: center;
   border-top: 1px solid black;
+  margin-bottom: 50px;
 }
 
 /* Aside */
+
+.as-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "editor asbig";
+  margin-left: 350px;
+  gap: 50px;
+
+}
+
+.as-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
 @media (min-width: 1150px) {
-  .aside {
+  /* .aside {
     float: right;
     clear: left;
     margin-right: 70px;
-  }
+  } */
 
   .asidee {
     display: grid;
@@ -407,16 +423,19 @@ h6 {
 }
 
 .fb-icon {
-  width: 40px;
+  width: 20px;
   background-color: rgb(103, 103, 189);
-  padding: 10px;
+  padding: 5px;
   color: #fff;
   border-radius: 10px;
 }
 
 .comment-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(44, 108, 138);
-  width: 500px;
+  width: 300px;
   height: 40px;
   border-radius: 5px;
   padding-right: 30px;
@@ -571,6 +590,7 @@ h6 {
   flex-direction: column;
   justify-items: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .footer-grid {
@@ -582,6 +602,7 @@ h6 {
   margin-left: 100px;
   justify-content: center;
   justify-items: center;
+  margin-top: 30px;
 }
 
 .footer-links {
@@ -663,7 +684,7 @@ nav ul li a {
   position: absolute;
   z-index: 20;
   top: 0;
-  left: 10px;
+  left: 30px;
   cursor: pointer;
 }
 
@@ -681,8 +702,10 @@ nav ul li a {
 .nav-icon {
   width: 100px;
   position: absolute;
-  left: 15px;
-  top: 5px;
+  margin-top: 5px;
+  margin-right: 1900px;
+  /* left: 15px;
+  top: 5px; */
 }
 
 * {
