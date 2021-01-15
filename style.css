@@ -264,7 +264,9 @@ svg {
   text-align: center;
   margin-right: 460px;
   font-size: 1.3rem;
+  width: 200px;
   height: 5px;
+  margin-bottom: 40px;
 }
 
 .as-big {
@@ -355,6 +357,7 @@ h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-right: 400px;
 }
 
 .flex1 {
