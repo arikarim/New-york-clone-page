@@ -136,6 +136,10 @@ svg {
   margin-left: 20px;
 }
 
+.display {
+  visibility: hidden;
+}
+
 .title5 {
   position: static;
   top: 0;
