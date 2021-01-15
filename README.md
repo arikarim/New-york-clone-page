@@ -1,7 +1,7 @@
 Built With
 HTML5, CSS3 Flexbox Grid Fontawesome
 
-![screenshot](./img/readme.jpg)
+![screenshot](./img/readme.png)
 
 **Author1**
 
