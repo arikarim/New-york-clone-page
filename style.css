@@ -137,7 +137,7 @@ svg {
 }
 
 .title5 {
-  position: static;;
+  position: static;
   top: 0;
   font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
@@ -168,7 +168,7 @@ svg {
 .icons {
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: flex-start;
   margin-right: 400px;
   margin-top: 0;
@@ -183,7 +183,6 @@ svg {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 500px;
-
 }
 
 .icons li {
@@ -361,7 +360,6 @@ h6 {
   grid-template-areas: "editor asbig";
   margin-left: 350px;
   gap: 50px;
-
 }
 
 .as-flex {
