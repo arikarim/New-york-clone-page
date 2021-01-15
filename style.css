@@ -573,7 +573,7 @@ h6 {
   grid-template-rows: 150px 20px 80px;
   grid-template-areas:
     'image'
-    'span'
+    'span10'
     'text';
   margin: 10px;
 }
@@ -585,7 +585,7 @@ h6 {
 }
 
 .editor-span {
-  grid-area: span;
+  grid-area: span10;
   font-size: 0.8rem;
   color: rgb(114, 114, 146);
   align-self: end;

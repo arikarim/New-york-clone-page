@@ -1,30 +1,30 @@
-In this project, we built:
+Built With
+HTML5, CSS3 Flexbox Grid Fontawesome
 
-A clone of a New York times article which can be found in https://github.com/arikarim/New-york-clone-page/pull/1#issue-554745531  In this project We:
-
-Used CSS selectors correctly; Used HTML elements box model (margin, padding, width, height); Used industry-standard tools (flexbox) to place elements in the page; Applied front-end best practices; Used CSS flexbox; Applied HTML and CSS linter errors detectors. Built with HTML and CSS.
+![screenshot](./img/readme.jpg)
 
 **Author1**
+
  GitHub: [@arikarim](hhttps://github.com/arikarim)
-
-
+ Linkedin: https://www.linkedin.com/in/ari-karim-523bb81b3
 
  **Author2**
-GitHub: [@Elyor](https://github.com/EL28DEV)
 
-
-Forking the project Cloning the project to your local machine cd into the project directory Run git checkout -b your-branch-name Make your contributions Push your branch up to your forked repository Open a Pull Request with a detailed description to the development branch of the original project for a review
-
-
-
-
-     ![screenshot](./img/readme.jpg)
+ GitHub: [@Elyor](https://github.com/EL28DEV)
+ Linked:https://www.linkedin.com/in/elyor-doniyorov-a24631135/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BqwG%2BlHEURVuPNcclOrcp4Q%3D%3D
 
 
 
-# Feedback
-please tell us what you think about this project and give it a star ⭐️.
 
 
-## 📝 License
-licence ####### -->
+
+#🤝 Contributing
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the issues page.
+
+#Show your support
+Give a ⭐️ if you like this project!
+
+
+
