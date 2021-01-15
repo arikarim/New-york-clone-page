@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 svg {
   width: 200px;
   height: 30px;
@@ -260,6 +264,11 @@ svg {
   color: rgb(115, 129, 143);
 }
 
+.as-biggg {
+  text-align: center;
+  margin-right: 500px;
+}
+
 .as-bigg {
   text-align: center;
   margin-right: 460px;
@@ -354,6 +363,9 @@ h6 {
 
 .content-flex {
   display: flex;
+  position: sticky;
+  top: 0;
+  background-color: white;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -365,7 +377,8 @@ h6 {
 }
 
 .flex2 {
-  width: 800px;
+  width: 900px;
+  margin-left: 220px;
 }
 
 .after-content {
@@ -719,7 +732,7 @@ nav ul li a {
   width: 100px;
   position: absolute;
   margin-top: 5px;
-  margin-right: 1900px;
+  margin-right: 2000px;
 }
 
 * {
