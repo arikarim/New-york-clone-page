@@ -1,5 +1,5 @@
 # New York Times clone'
-    this is a new york times clone project, the purpose of this project is to learn various html and css positioning and building simple web pages and various parts including header, navbar, footer and body and some simple styles using grid,flex and float
+    This is a New York Times clone project, the purpose of this project is to learn various html and css positioning and floating elements, web pages and various parts including header, navbar, footer and body and some simple styles using grid, flex and float.
      ()
      ![screenshot](./img/screen.jpg)
 
