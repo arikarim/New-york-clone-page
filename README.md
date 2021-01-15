@@ -4,7 +4,9 @@
      ![screenshot](./img/screen.jpg)
 
 
-
+# Added linter
+stylelint
+weblint
 
 
 ## built with:

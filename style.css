@@ -2,7 +2,6 @@
 .header-flex {
   display: flex;
   justify-content: center;
-
 }
 
 svg {
@@ -128,9 +127,6 @@ svg {
 
 .header1 {
   position: relative;
-  /* float: left;
-  display: inline-block;
-  margin-left: 10px; */
   margin-right: 1400px;
 }
 
@@ -377,12 +373,6 @@ h6 {
 }
 
 @media (min-width: 1150px) {
-  /* .aside {
-    float: right;
-    clear: left;
-    margin-right: 70px;
-  } */
-
   .asidee {
     display: grid;
     grid-template-rows: 0.5fr 1fr 1fr 1fr;
@@ -704,8 +694,6 @@ nav ul li a {
   position: absolute;
   margin-top: 5px;
   margin-right: 1900px;
-  /* left: 15px;
-  top: 5px; */
 }
 
 * {
