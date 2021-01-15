@@ -18,7 +18,7 @@ Forking the project Cloning the project to your local machine cd into the projec
 
 
 
-     ![screenshot](./img/screen.jpg)
+     ![screenshot](./img/readme.jpg)
 
 
 
